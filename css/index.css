@@ -1,0 +1,60 @@
+:root{
+	--scale-link-about-me: 35px;
+}
+
+.sec_presentation{
+	width: 100%;
+	height: 680px;
+	border: 1px solid #000;
+}
+
+.sec_presentation h1{
+	position: relative;
+	width: 70%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	padding-left: 50px;
+	padding-top: 150px;
+	font-size: 350%;
+	border: 1px solid #000;
+	color: #FF0066;
+}
+
+.sec_presentation h1 svg#blob_presentation{
+	position: absolute;
+	z-index: -1;
+	width: 55%;
+	top: 1000px;
+	left: -500px;
+	transition: 3s;
+}
+
+.sec_presentation h1 span{
+	color: #fff;
+}
+
+.sec_presentation a{
+	position: relative;
+	display: block;
+	margin-top: 20px;
+	width: 200px;
+	color: #fff;
+	height: var(--scale-link-about-me);
+	border-radius: 20px;
+	border: none;
+	text-align: center;
+	font-size: 35%;
+	font-weight: bolder;
+	line-height: var(--scale-link-about-me);
+}
+
+.sec_presentation a svg{
+	position: absolute;
+	z-index: -1;
+	width: 175%;
+	top: -1000px;
+	left: 500px;
+	transition: 3s;
+}

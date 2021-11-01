@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<title>Portfolio</title>
 </head>
-<body>
+<body onload="load()">
 	<header>
 		<nav>
 			<ul class="header_menu">
@@ -28,7 +28,21 @@
 			</ul>
 		</nav>
 	</header>
-	<img src="img/dessin.svg" id="name">
-	<script type="module" src="js/app.js"></script>
+	<section class="sec_presentation">
+		<h1>
+			<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob_presentation">
+				<path fill="#FF0066" d="M47.1,-39.8C63,-31.3,79,-15.6,80.6,1.6C82.3,18.9,69.5,37.8,53.7,54.4C37.8,71,18.9,85.2,1.1,84.2C-16.8,83.1,-33.5,66.7,-43.6,50.1C-53.7,33.5,-57.2,16.8,-60,-2.8C-62.7,-22.3,-64.9,-44.7,-54.8,-53.1C-44.7,-61.6,-22.3,-56.2,-3.3,-52.9C15.6,-49.6,31.3,-48.2,47.1,-39.8Z" transform="translate(100 100)" />
+			</svg>
+			<span>Hi, I'm Emma</span>nuel Lion <br>
+			<span>French devel</span>opper <br>
+			<a href="history.html">
+				<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" id="blob_link_history">
+					<path fill="#8A3FFC" d="M68.2,-16.4C75.4,0,59.3,29.8,38.9,41.8C18.6,53.8,-6.1,48.1,-23.7,34.9C-41.3,21.6,-51.8,0.7,-46.6,-12.9C-41.5,-26.5,-20.8,-32.8,4.9,-34.4C30.5,-36,61,-32.9,68.2,-16.4Z" transform="translate(100 100)" />
+				</svg>
+				Learn more about me
+			</a>
+		</h1>
+	</section>
+	<script src="js/app.js"></script>
 </body>
 </html>

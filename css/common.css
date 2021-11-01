@@ -5,10 +5,16 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+	outline: none;
 }
 
 body{
 	min-height: 100vh;
+	overflow: hidden;
+}
+
+header{
+	min-height: 10vh;
 }
 
 header, nav{
@@ -18,7 +24,7 @@ header, nav{
 	justify-content: center;
 }
 
-.header_menu{
+ul.header_menu{
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -34,6 +40,9 @@ a{
 	text-decoration: none;
 }
 
+a:hover, button:hover{
+	cursor: pointer;
+}
 
 @media (min-width: 1280px){
 
